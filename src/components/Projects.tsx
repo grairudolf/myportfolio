@@ -32,7 +32,7 @@ const projects: Project[] = [
   {
     title: "Cameroonian Budget Manager",
     description:
-      "A full-stack budget manager application tailored for the average cameroonian",
+      "A full-stack budget management application designed to meet the everyday financial needs of the average Cameroonian.",
     technologies: [
       "HTML",
       "CSS",
@@ -48,8 +48,15 @@ const projects: Project[] = [
   {
     title: "Task Management App",
     description:
-      "A productivity application that helps users manage tasks, set priorities, and track progress on various projects.",
-    technologies: ["React", "Redux", "Firebase", "Material UI"],
+      "A productivity application designed to help users manage tasks, set clear priorities, and track progress across multiple projects with ease and efficiency.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "TypeScript",
+    ],
     liveLink: "https://taskify-liard-iota.vercel.app",
     githubLink: "",
     image: "/website_img/taskify.png",
@@ -57,7 +64,7 @@ const projects: Project[] = [
   {
     title: "Astrophysics Career Guide",
     description:
-      "Out of my passion for the Astronomy field. Since I strongly encourage big dreams as it makes life colorlful",
+      "Born from my passion for astronomy, I strongly encourage dreaming big — because great dreams add meaning, direction, and color to life.",
     technologies: ["HTML", "CSS", "JavaScript", "SCSS"],
     liveLink: "https://astro-physics-career.vercel.app",
     githubLink: "https://github.com/grairudolf/AstroPhysics",
@@ -66,7 +73,7 @@ const projects: Project[] = [
   {
     title: "NetBoltZ",
     description:
-      "NetBoltZ (by me and my team of two other members: Ayafor Bill and Tazuh Faith).  was brought to life out of the socialtal problem of slow or bad internet connection. The app basically improves your internet speed and general experience of surfing",
+      "NetBoltZ — developed by me and my teammates, Ayafor Bill and Tazuh Faith — was created in response to the widespread issue of slow internet connectivity. The app is designed to enhance browsing speed and significantly improve the overall internet experience.",
     technologies: [
       "HTML",
       "CSS",
