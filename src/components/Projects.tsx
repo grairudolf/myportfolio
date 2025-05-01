@@ -43,7 +43,7 @@ const projects: Project[] = [
     ],
     liveLink: "https://cameroon-budget-boss.vercel.app",
     githubLink: "https://github.com/grairudolf/cameroon-budget-boss",
-    image: "public/website_img/cambud.png",
+    image: "/website_img/cambud.png",
   },
   {
     title: "Task Management App",
@@ -52,7 +52,7 @@ const projects: Project[] = [
     technologies: ["React", "Redux", "Firebase", "Material UI"],
     liveLink: "https://taskify-liard-iota.vercel.app",
     githubLink: "",
-    image: "public/website_img/taskify.png",
+    image: "/website_img/taskify.png",
   },
   {
     title: "Astrophysics Career Guide",
@@ -61,7 +61,7 @@ const projects: Project[] = [
     technologies: ["HTML", "CSS", "JavaScript", "SCSS"],
     liveLink: "https://astro-physics-career.vercel.app",
     githubLink: "https://github.com/grairudolf/AstroPhysics",
-    image: "public/website_img/astro.png",
+    image: "/website_img/astro.png",
   },
   {
     title: "NetBoltZ",
@@ -88,7 +88,7 @@ const projects: Project[] = [
     technologies: ["HTML", "CSS", "JavaScript"],
     liveLink: "https://snakegame-ruddy-eight.vercel.app",
     githubLink: "https://github.com/grairudolf/snakegame",
-    image: "public/website_img/snake.png",
+    image: "/website_img/snake.png",
   },
 ];
 
