@@ -23,7 +23,7 @@ const projects: Project[] = [
   {
     title: "Portfolio Website",
     description:
-      "A modern, responsive portfolio website built with React and Tailwind CSS. Features a dark theme with smooth animations.",
+      "A sleek, modern personal portfolio designed to showcase my work, personality, and journey — complete with a dark theme and smooth, engaging visuals for a memorable user experience.",
     technologies: ["HTML", "CSS", "JavaScript"],
     liveLink: "https://myportfoilio-indol.vercel.app",
     githubLink: "https://github.com/grairudolf/myportfoilio",
