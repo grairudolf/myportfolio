@@ -14,7 +14,7 @@ const communityItems: CommunityItem[] = [
     name: "Tech Innovation Center (TiC)",
     role: "Volunteer and Mentor",
     description:
-      "Participate building the next generation of great minds and techprenuers of Cameroon to the global stage. Students get the opportunity to become problem solvers and innovators in their societies.",
+      "I actively contribute to shaping the next generation of great minds and techpreneurs in Cameroon, helping students become problem solvers and innovators who create meaningful change in their communities and beyond.",
     period: "2024 - Present",
     link: "https://www.ticsummit.org",
   },
@@ -22,7 +22,7 @@ const communityItems: CommunityItem[] = [
     name: "FET AI Club",
     role: "Member",
     description:
-      "Active member of the Faculty's Artificial Intelligence club. Building and developing skills along with fellow club members",
+      "Active member of my Faculty’s Artificial Intelligence Club, where I grow and collaborate with peers to develop practical skills, share ideas, and explore the future of intelligent systems.",
     period: "2025 - Present",
     link: "https://example.com/fet-ai-club", // Replace with the actual link
   },
@@ -30,7 +30,7 @@ const communityItems: CommunityItem[] = [
     name: "Knowledge Center (KC)",
     role: "Scholar",
     description:
-      "One of the things Im happy about is the gift of KC. An organisition that goes against the goes against the norms of the society and gives birth meritocracy all in empowerin the next generation of global Leaders and visionaries.",
+      "One of the things I’m most grateful for is the gift of KC — an organization that challenges societal norms and champions meritocracy, all while empowering the next generation of global leaders and visionaries.",
     period: "2024 - Present",
     link: "https://kccameroon.com/",
   },
@@ -38,7 +38,7 @@ const communityItems: CommunityItem[] = [
     name: "Tutoring",
     role: "Teacher",
     description:
-      "I developed a teaching habit after highschool to help other kids who needed help to be able to learn easily by tackling similar issues I faced aswell.",
+      "After high school, I developed a passion for teaching to help other students learn more easily by guiding them through the same challenges I once faced. My goal has been to make learning accessible, relatable, and empowering for those who need support.",
     period: "2024 - Present",
     link: "https://example.com/tutoring", // Replace with the actual link
   },
@@ -46,7 +46,7 @@ const communityItems: CommunityItem[] = [
     name: "CMFI (Christian Missionary Fellowship International)",
     role: "Disciple",
     description:
-      "Well, I am a disciple of the Lord Jesus and I have as a duty to follow my master and obey his commads as that is the main purpose for which human beings ar even alive. I witness the gospel to others so as to ensure that as many people as possible are saved.",
+      "I am a disciple of the Lord Jesus Christ, devoted to following Him and obeying His commands — the very reason we were created. My life’s mission is to glorify God by living in obedience to His Word and sharing the gospel, so that as many souls as possible may come to the knowledge of salvation.",
     period: "2024 - Present",
     link: "https://cmfionline.org", 
   },
