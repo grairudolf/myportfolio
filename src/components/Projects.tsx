@@ -27,7 +27,7 @@ const projects: Project[] = [
     technologies: ["HTML", "CSS", "JavaScript"],
     liveLink: "#",
     githubLink: "#",
-    image: "public/website_img/port.png",
+    image: "/website_img/port.png",
   },
   {
     title: "Cameroonian Budget Manager",
