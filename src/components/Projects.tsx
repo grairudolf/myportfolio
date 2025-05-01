@@ -43,7 +43,7 @@ const projects: Project[] = [
     ],
     liveLink: "https://cameroon-budget-boss.vercel.app",
     githubLink: "https://github.com/grairudolf/cameroon-budget-boss",
-    image: "/website_img/cambud.png",
+    image: "/website_img/cambud.png"
   },
   {
     title: "Task Management App",
