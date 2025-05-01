@@ -43,7 +43,7 @@ const About: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-portfolio opacity-60 z-10"></div>
               <div className="absolute inset-0 border-2 border-purple-500 rounded-lg transform translate-x-4 translate-y-4 z-0"></div>
               <div className="w-full h-full flex items-center justify-center">
-                <img src="/website_img/hero.jpg" alt="hero" />
+                <img src="public/website_img/hero.jpg" alt="hero" />
                 {/* <span className="text-gray-400">Your Photo (Optional)</span> */}
               </div>
             </div>
