@@ -5,7 +5,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "@/components/ui/card";https://github.com/grairudolf/myportfolio/edit/main/src/components/Projects.tsx
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Github, ExternalLink } from "lucide-react";
@@ -79,7 +79,7 @@ const projects: Project[] = [
     ],
     liveLink: "https://netboltz.vercel.app",
     githubLink: "https://github.com/basedcatx/NetBoltZ",
-    image: "public/website_img/netboltz.png",
+    image: "/website_img/netboltz.png",
   },
   {
     title: "JS Snake Game",
