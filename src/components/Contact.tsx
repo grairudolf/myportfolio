@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Github, Linkedin, Twitter, Mail, Download } from "lucide-react";
+import { Github, Linkedin, Twitter, Mail, Download, Eye } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import emailjs from "@emailjs/browser";
 
@@ -86,17 +86,16 @@ const Contact: React.FC = () => {
                 </div>
               </div>
 
-              <div>
+          <div>
                 <h3 className="text-xl font-semibold mb-4 text-white">
                   My Resume
                 </h3>
                 <Button
                   className="bg-gradient-portfolio hover:bg-gradient-portfolio-hover"
-                  asChild
-                >
-                  <a href="src/Resume.docx" download>
-                    <Download className="h-4 w-4 mr-2" />
-                    Download Resume
+                  asChild>
+                  <a href="https://docs.google.com/document/d/1zIMbLKmz29i13PSKohLrRoUgpSdBxn_OufzlkheAw4I/edit?usp=sharing">
+                    <Eye className="h-4 w-4 mr-2" /> {/* Use the Eye icon */}
+                    View Resume
                   </a>
                 </Button>
               </div>
