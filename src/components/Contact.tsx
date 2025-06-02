@@ -93,7 +93,7 @@ const Contact: React.FC = () => {
                 <Button
                   className="bg-gradient-portfolio hover:bg-gradient-portfolio-hover"
                   asChild>
-                  <a href="https://docs.google.com/document/d/1zIMbLKmz29i13PSKohLrRoUgpSdBxn_OufzlkheAw4I/edit?usp=sharing">
+                  <a href="https://drive.google.com/file/d/1m2-oNi9FTXsnHJ5jJDuWNLYrc83VGk8Z/view?usp=drive_link" target="_blank">
                     <Eye className="h-4 w-4 mr-2" /> {/* Use the Eye icon */}
                     View Resume
                   </a>
