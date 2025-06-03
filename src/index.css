@@ -72,3 +72,45 @@
     @apply transition-all duration-300 hover:shadow-xl hover:shadow-purple-500/40;
   }
 }
+
+.bg-gradient-hero {
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+/* Styles for the hero icons container */
+.hero-icons {
+  display: flex; /* Arrange icons horizontally */
+  justify-content: center; /* Center icons horizontally */
+  align-items: center; /* Center icons vertically */
+  gap: 20px; /* Spacing between icons */
+  margin-top: 30px; /* Spacing from the text above */
+}
+
+/* Basic styles for individual icons (if added later) */
+.hero-icons img {
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.hero-icons img:hover {
+  transform: scale(1.1); /* Enlarge icon on hover */
+}
+
+/* Styles for the typing animation cursor */
+.typing-cursor {
+  display: inline-block;
+  width: 8px; /* Adjust cursor width as needed */
+  height: 1.5em; /* Adjust cursor height as needed */
+  background-color: white; /* Cursor color */
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
