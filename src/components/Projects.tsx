@@ -122,7 +122,7 @@ const Projects: React.FC = () => {
           {projects.map((project, index) => (
             <Card
               key={index}
-              className="bg-portfolio-mid-blue/10 border-portfolio-mid-blue/40 card-hover overflow-hidden"
+              className="bg-portfolio-mid-blue/10 border-portfolio-mid-blue/40 card-hover overflow-hidden hover:-translate-y-1 transform transition-transform duration-200"
             >
               <div className="h-48 bg-gray-800 overflow-hidden">
                 <img
