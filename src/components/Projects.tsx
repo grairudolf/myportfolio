@@ -29,6 +29,15 @@ const projects: Project[] = [
     githubLink: "https://github.com/grairudolf/myportfoilio",
     image: "/website_img/port.png",
   },
+    {
+    title: "Silicon Hub",
+    description:
+      "SiliconHub is a collaborative platform designed to connect developers, innovators, and tech enthusiasts. It offers tools, resources, and a community space to share projects, find collaborators, and grow ideas from concept to launch. Special credits to my team The Scripts for this project",
+    technologies: ["MongoDB", "Express", "React", "Node.js"],
+    liveLink: "https://siliconhub.vercel.app",
+    githubLink: "https://github.com/grairudolf/CFC25_HACKATHON",
+    image: "/website_img/silicon.png",
+  },
   {
     title: "Cameroonian Budget Manager",
     description:
@@ -88,15 +97,15 @@ const projects: Project[] = [
     githubLink: "https://github.com/basedcatx/NetBoltZ",
     image: "/website_img/netboltz.png",
   },
-  {
-    title: "JS Snake Game",
-    description:
-      "Due to my love for games, I decided to build a simple snake game using JavaScript. The game is simple and fun to play.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    liveLink: "https://snakegame-ruddy-eight.vercel.app",
-    githubLink: "https://github.com/grairudolf/snakegame",
-    image: "/website_img/snake.png",
-  },
+  // {
+  //   title: "JS Snake Game",
+  //   description:
+  //     "Due to my love for games, I decided to build a simple snake game using JavaScript. The game is simple and fun to play.",
+  //   technologies: ["HTML", "CSS", "JavaScript"],
+  //   liveLink: "https://snakegame-ruddy-eight.vercel.app",
+  //   githubLink: "https://github.com/grairudolf/snakegame",
+  //   image: "/website_img/snake.png",
+  // },
 ];
 
 const Projects: React.FC = () => {
