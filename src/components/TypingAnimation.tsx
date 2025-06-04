@@ -16,6 +16,13 @@ const TypingAnimation: React.FC<TypingAnimationProps> = ({ text, speed = 150 }) 
         setCurrentIndex((prev) => prev + 1);
       }, speed);
       return () => clearTimeout(timeoutId);
+    } else {
+      // When text is fully displayed
+      const timeoutId = setTimeout(() => {
+        setDisplayedText(''); // Reset displayed text
+        setCurrentIndex(0);   // Reset index to start over
+      }, 2000); // Wait for 2 seconds before restarting
+      return () => clearTimeout(timeoutId);
     }
   }, [currentIndex, text, speed]);
 
