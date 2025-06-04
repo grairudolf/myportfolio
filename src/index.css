@@ -114,3 +114,40 @@
     opacity: 0;
   }
 }
+
+/* For the Hero image container */
+#hero-image-container.hero-image-fade-in {
+  opacity: 1;
+  transition: opacity 0.4s ease-in-out;
+}
+
+#hero-image-container.hero-image-fade-out {
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  /* Optionally, you could add a slight scale down or move, e.g.:
+     transform: scale(0.95) translateX(10px);
+     transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+  */
+}
+
+/*
+  The About image container (#about-image-container) is styled dynamically
+  via JavaScript in Index.tsx. The `transition` property for smooth animation
+  of opacity and transform is already being set in its style attribute:
+  `transition: 'opacity 0.4s ease-in-out, transform 0.4s ease-in-out'`
+  as per the logic in Index.tsx. So, no specific classes are strictly needed here
+  for its animation, but we ensure its initial state (opacity 0) is handled by the JS.
+*/
+
+/* Ensure the hero image container itself doesn't have conflicting transitions initially */
+#hero-image-container {
+  /* opacity: 1; /* Default state if no class is applied, handled by hero-image-fade-in initially */
+}
+
+/*
+  It's also important that the #about-image-container initially doesn't occupy space
+  in a way that affects layout if it's meant to be 'appearing'.
+  However, since it's opacity-based and transformed, it will occupy its layout space,
+  which is usually fine for this kind of effect.
+  If it needed to not affect layout until visible, pointer-events: none could also be used.
+*/
