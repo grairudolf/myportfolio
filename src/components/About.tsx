@@ -51,7 +51,7 @@ const About: React.FC<AboutProps> = ({ imageContainerStyle }) => {
                 className="w-full h-full flex items-center justify-center"
                 style={imageContainerStyle}
               >
-                <img src="/website_img/profile-pic (3).png" alt="hero" />
+                <img src="/website_img/profile-pic (3).png" alt="hero" style={{ opacity: 0 }} />
                 {/* <span className="text-gray-400">Your Photo (Optional)</span> */}
               </div>
             </div>

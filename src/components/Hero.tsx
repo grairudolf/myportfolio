@@ -52,6 +52,7 @@ const Hero: React.FC = () => {
         {/* Image Container */}
         <div id="hero-image-container" className="md:w-1/3 w-full flex justify-center items-center mt-8 md:mt-0">
           <img
+            id="hero-profile-image"
             src="/website_img/profile-pic (3).png"
             alt="Profile"
             className="rounded-full w-64 h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 object-cover shadow-2xl border-4 border-purple-500/30 transform hover:scale-105 transition-transform duration-300"
