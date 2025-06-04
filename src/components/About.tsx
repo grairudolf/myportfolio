@@ -52,7 +52,6 @@ const About: React.FC<AboutProps> = ({ imageContainerStyle }) => {
                 style={imageContainerStyle}
               >
                 <img src="/website_img/profile-pic (3).png" alt="hero" />
-                {/* <span className="text-gray-400">Your Photo (Optional)</span> */}
               </div>
             </div>
           </div>
