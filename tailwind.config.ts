@@ -64,14 +64,14 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				portfolio: {
-					'dark-blue': '#0f0c29',
-					'mid-blue': '#302b63',
-					'purple': '#24243e',
+					'dark-blue': '#020617',
+					'mid-blue': '#0b1f3b',
+					'purple': '#111827',
 				}
 			},
 			backgroundImage: {
-				'gradient-portfolio': 'linear-gradient(to right, #0f0c29, #302b63, #24243e)',
-				'gradient-portfolio-hover': 'linear-gradient(to right, #0f0c29, #3a3278, #24243e)',
+				'gradient-portfolio': 'linear-gradient(to right, #020617, #0b1f3b, #020617)',
+				'gradient-portfolio-hover': 'linear-gradient(to right, #020617, #1d3570, #020617)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

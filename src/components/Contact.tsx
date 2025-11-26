@@ -80,7 +80,7 @@ const Contact: React.FC = () => {
                   />
                   <SocialLink
                     icon={<Mail />}
-                    href="mailto:rtech777r@gmail.com"
+                    href="mailto:grairudolf0@gmail.com"
                     label="Email"
                   />
                 </div>
@@ -93,9 +93,9 @@ const Contact: React.FC = () => {
                 <Button
                   className="bg-gradient-portfolio hover:bg-gradient-portfolio-hover"
                   asChild>
-                  <a href="https://drive.google.com/file/d/1XfDrppFfh56YDRLVAEsXpl_0PsxMD51L/view?usp=drive_link" target="_blank">
+                  <a href="https://docs.google.com/document/d/1-WzTB20FiTjOO2fNq7yvPJbEd-wYr8_i/edit?usp=sharing&ouid=118117673804097049834&rtpof=true&sd=true" target="_blank">
                     <Eye className="h-4 w-4 mr-2" /> {/* Use the Eye icon */}
-                    View Resume
+                    View CV
                   </a>
                 </Button>
               </div>

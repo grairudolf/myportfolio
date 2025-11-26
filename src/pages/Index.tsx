@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Projects from '@/components/Projects';
+import Blogs from '@/components/Blogs';
 import Skills from '@/components/Skills';
 import Community from '@/components/Community';
 import Contact from '@/components/Contact';
@@ -96,6 +97,7 @@ const Index = () => {
         <Hero />
         <About imageContainerStyle={aboutImageStyle} />
         <Projects />
+        <Blogs />
         <Skills />
         <Community />
         <Contact />

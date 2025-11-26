@@ -30,9 +30,10 @@ const Header: React.FC = () => {
         <div className="hidden md:flex space-x-8">
           <NavLink href="#about">About</NavLink>
           <NavLink href="#projects">Projects</NavLink>
+          <NavLink href="#blogs">Blogs</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#community">Community</NavLink>
-          <NavLink href="#contact">Contact</NavLink>
+          
         </div>
         
         <div>
