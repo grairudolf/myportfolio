@@ -11,27 +11,27 @@ interface SkillCategory {
 const skillCategories: SkillCategory[] = [
   {
     name: "Frontend",
-    skills: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Tailwind CSS", "Material UI"]
+    skills: ["HTML/CSS", "JavaScript", "TypeScript", "React", "Tailwind CSS", "Material UI", "shadcn", "State Management", "Responsive Design", "CSS Preprocessors"]
   },
   {
     name: "Backend",
-    skills: ["Node.js", "Express", "Python", "MongoDB", "PostgreSQL", "Firebase"]
+    skills: ["Node.js", "Express", "Python", "Flask", "API intergration", "MongoDB", "SQL","Firebase", "Supabase"]
   },
   {
     name: "Mobile Development",
-    skills: ["Kotlin", "Java"]
+    skills: ["React Native", "Flutter"]
   },
   {
     name: "Artificial Inteligence",
-    skills: ["Python"]
+    skills: ["Python", "ML", "DL", "NLP", "Computer Vision", "TensorFlow", "PyTorch", "Scikit-learn",]
   },
   {
     name: "Tools & Others",
-    skills: ["Git", "GitHub", "VS Code", "Figma", "AWS", "CI/CD", "RESTful APIs"]
+    skills: ["Git", "GitHub", "Docker", "Trello", "Figma", "Google Cloud", "CI/CD", "RESTful APIs"]
   },
   {
     name: "Soft Skills",
-    skills: ["Problem Solving", "Team Collaboration", "Communication", "Leadership", "Time Management", "Adaptability", "Critical Thinking"]
+    skills: ["Problem Solving", "Adaptability", "Team Collaboration", "Communication", "Leadership", "Time Management", "Adaptability", "Critical Thinking"]
   }
 ];
 

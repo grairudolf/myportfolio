@@ -12,7 +12,7 @@ interface CommunityItem {
 const communityItems: CommunityItem[] = [
   {
     name: "Tech Innovation Center (TiC)",
-    role: "Volunteer and Mentor",
+    role: "Regional Tech Trainer",
     description:
       "I actively contribute to shaping the next generation of great minds and techpreneurs in Cameroon, helping students become problem solvers and innovators who create meaningful change in their communities and beyond.",
     period: "2024 - Present",
@@ -28,7 +28,7 @@ const communityItems: CommunityItem[] = [
   },
   {
     name: "Knowledge Center (KC)",
-    role: "Scholar",
+    role: "Science Tutor and Developer",
     description:
       "One of the things I’m most grateful for is the gift of KC — an organization that challenges societal norms and champions meritocracy, all while empowering the next generation of global leaders and visionaries.",
     period: "2024 - Present",
