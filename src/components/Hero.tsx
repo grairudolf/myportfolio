@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
             Grai Rudolf.
           </h1>
           <h2 className="text-2xl md:text-5xl lg:text-6xl font-bold text-gray-300 mt-2 animate-fade-in-up">
-            <TypingAnimation text="Software Developer" />
+            <TypingAnimation text="Software Engineer" />
           </h2>
           <p className="text-gray-400 max-w-xl mt-6 text-lg animate-fade-in-up delay-300">
             I'm passionate about building exceptional digital experiences and solving complex problems through code.

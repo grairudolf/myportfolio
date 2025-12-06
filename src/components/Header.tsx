@@ -54,7 +54,7 @@ const NavLink: React.FC<{ href: string, children: React.ReactNode }> = ({ href, 
   return (
     <a 
       href={href}
-      className="text-gray-300 hover:text-white transition-colors relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-purple-500 after:transition-all hover:after:w-full"
+      className="relative text-sm font-medium text-gray-300 hover:text-white transition-colors px-2 py-1 rounded-full after:absolute after:bottom-0 after:left-1/2 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-purple-500 after:transition-all hover:after:w-3/4 hover:bg-white/5"
     >
       {children}
     </a>
