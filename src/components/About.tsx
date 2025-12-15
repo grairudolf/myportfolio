@@ -51,7 +51,7 @@ const About: React.FC<AboutProps> = ({ imageContainerStyle }) => {
                 className="w-full h-full flex items-center justify-center"
                 style={imageContainerStyle}
               >
-                <img src="/website_img/profile-pic (3).png" alt="hero" />
+                <img src="image1.png" alt="hero" />
               </div>
             </div>
           </div>

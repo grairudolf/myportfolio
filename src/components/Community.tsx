@@ -23,7 +23,7 @@ const communityItems: CommunityItem[] = [
     role: "Member",
     description:
       "Active member of my Faculty’s Artificial Intelligence Club, where I grow and collaborate with peers to develop practical skills, share ideas, and explore the future of intelligent systems.",
-    period: "2025 - Present",
+    period: "2024 - 2025",
     link: "https://example.com/fet-ai-club", // Replace with the actual link
   },
   {
@@ -75,12 +75,12 @@ const Community: React.FC = () => {
                     href={item.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:underline text-purple-400"
+                    className="hover:underline text-blue-400"
                   >
                     {item.name}
                   </a>
                 </CardTitle>
-                <div className="text-purple-400 text-sm font-medium">
+                <div className="text-blue-400 text-sm font-medium">
                   {item.role}
                 </div>
                 <div className="text-gray-400 text-xs">{item.period}</div>

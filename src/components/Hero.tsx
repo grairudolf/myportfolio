@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
         {/* Text Content Container */}
         <div className="md:w-2/3 w-full flex flex-col justify-center">
           <div className="space-y-2">
-            <p className="text-purple-400 animate-slide-in-from-left">Hi, my name is</p>
+            <p className="text-purple-400 animate-slide-in-from-left">Hi, I'm</p>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white animate-slide-in-from-right">
             Grai Rudolf.
           </h1>
@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
             <TypingAnimation text="Software Engineer" />
           </h2>
           <p className="text-gray-400 max-w-xl mt-6 text-lg animate-fade-in-up delay-300">
-            I'm passionate about building exceptional digital experiences and solving complex problems through code.
+            I'm passionate about growth, purposfulness and problem solving through engineering.
           </p>
           <div className="hero-icons">
             {/* Icons will be added here later */}
@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
         {/* Image Container */}
         <div id="hero-image-container" className="md:w-1/3 w-full flex justify-center items-center mt-8 md:mt-0">
           <img
-            src="/website_img/profile-pic (3).png"
+            src="image2.png"
             alt="Profile"
             className="rounded-full w-64 h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 object-cover shadow-2xl border-4 border-purple-500/30 transform hover:scale-105 transition-transform duration-300"
           />

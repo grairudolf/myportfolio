@@ -45,7 +45,7 @@
   body {
     @apply bg-portfolio-dark-blue text-foreground antialiased;
     font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
-    background: radial-gradient(circle at top left, #020617 0%, #020617 30%, #020617 40%),
+    background: radial-gradient(circle at top left, #000000 0%, #000000 30%, #000000 40%),
                 linear-gradient(to right, #020617, #0b1f3b, #020617);
     min-height: 100vh;
   }
